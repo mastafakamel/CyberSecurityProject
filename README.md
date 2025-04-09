@@ -40,7 +40,7 @@ cd CyberSecurityProject
 
 ### Example Configuration
 
-To use the script, define your project's dependencies your project **[requirements.txt can]** and copy it next to  Folder Src
+To use the script, select your project's dependencies [requirements.txt] and copy them next to the project files.
 
 ![2025-04-09 211059](https://github.com/user-attachments/assets/b6e9eb24-bb08-4556-a090-a8c418897487)
 
