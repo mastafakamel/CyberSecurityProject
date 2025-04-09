@@ -2,7 +2,7 @@
 
 def get_python_dependencies_WithVersion():
     requirements = {}
-    with open("requirements0.txt", "r") as file:
+    with open("requirements.txt", "r") as file:
         for line in file:
             line = line.strip()  # Remove whitespace
             if not line or line.startswith("#"):
@@ -18,7 +18,7 @@ def get_python_dependencies_WithVersion():
 
 
 def get_python_dependencies_WithOutVersion():
-    with open("requirements0.txt", "r") as file:
+    with open("requirements.txt", "r") as file:
         # dependencies = [line.strip().split("==")[0] for line in file if line.strip()]
         dependencies = [line.strip().split(">=")[0] for line in file if line.strip()]
         dependencies = [line.strip().split("==")[0] for line in dependencies if line.strip()]
