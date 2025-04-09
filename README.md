@@ -9,48 +9,24 @@ The **CVE Vulnerability Checker** is a Python script that scans a list of projec
 ## Features
 
 - **CVE Lookup:** Fetches real-time CVE data from NVD API.
-- **Dependency Scanning:** Automatically scans a list of project libraries (e.g., Flask, Requests, Numpy) and identifies known vulnerabilities for the specific versions in use.
+- **Dependency Scanning:** Automatically scans a list of project libraries and identifies known vulnerabilities for the specific versions in use.
 - **Detailed Reporting:** Outputs vulnerability information, including CVE ID, description, and affected versions.
 - **Easy Integration:** Can be integrated into your CI/CD pipeline to automate vulnerability checking.
-
-## Prerequisites
-
-To run the CVE Vulnerability Checker, you'll need:
-
-- Python 3.x
-- Required libraries (listed in requirements.txt)
 
 ## Installation
 
 ### Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/cve-vulnerability-checker.git
+git clone https://github.com/mastafakamel/CyberSecurityProject.git
 cd cve-vulnerability-checker
-```
-
-### Install Dependencies
-
-You can install the required dependencies using `pip`:
-
-```bash
-pip install -r requirements.txt
 ```
 
 ## Usage
 
 ### Example Configuration
 
-To use the script, define your project's dependencies and their versions inside the `project_libs` dictionary in the script:
-
-```python
-project_libs = {
-    "requests": "2.26.0",
-    "flask": "2.0.1",
-    "numpy": "1.21.0",
-    "sendmail": "5.58"  # Simulated vulnerable library
-}
-```
+To use the script, define your project's dependencies your project **[requirements.txt can]** and copy it next to  Folder Src
 
 ### Run the Script
 
